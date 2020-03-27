@@ -21,9 +21,7 @@ paths:
               schema:
                 type: array
                 items:
-                  anyOf:
-                    - $ref: '#/components/schemas/Cat'
-                    - $ref: '#/components/schemas/Dog'
+                  $ref: '#/components/schemas/Pet'
         404:
           description: Some Error
           content: {}
